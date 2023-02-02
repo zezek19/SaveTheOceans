@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Save the Oceans</title>
+    <!-- LINK ANIMATE ON SCROLL-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- LINK GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINK FONT AWESOME-->
+
+    <script
+      src="https://kit.fontawesome.com/2d9293b3b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="home" class="container_video">
+      <video
+        class="background_video"
+        src="./images/oceanovideo.mp4"
+        autoplay
+        muted
+        loop
+      ></video>
+    </section>
+
+    <header>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="item_menu"><a href="#home"> HOME </a></li>
+          <li class="item_menu">
+            <a href="#information_section"> INFORMATION </a>
+          </li>
+          <li class="item_menu">
+            <a href="#dangerzone_section"> DANGER ZONE </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container_title">
+        <h1>OCEANS</h1>
+      </div>
+
+      <section id="information_section">
+        <div data-aos="fade-down" class="subtitle_information">
+          <p class="text_subtitle_information">
+            Join us and discover the uniqueness of our oceans
+          </p>
+
+          <a class="icon_subtitle" href="#information_section">
+            <i class="fa-solid fa-arrow-down"></i>
+          </a>
+        </div>
+
+        <div class="information">
+          <div data-aos="fade-right" class="text_information">
+            <h2>%71</h2>
+            <p>
+              About 71% of Earth's surface is water. If you took all the water
+              on Earth and put it into a ball, it would be about 860 miles wide.
+            </p>
+            <p>
+              Most of Earth is salt water in oceans. About 97.2% of Earth's
+              surface water resides in oceans.
+            </p>
+            <p>
+              There are five oceans in the world: Arctic, Atlantic, Indian,
+              Pacific and Southern.
+            </p>
+            <p>However, there is only one Global Ocean.</p>
+          </div>
+
+          <div data-aos="fade-up" class="earth">
+            <img src="./images/earth.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="dangerzone_section">
+        <div data-aos="zoom-in" class="subtitle_dangerzone">
+          <h3>DANGER ZONE</h3>
+          <p class="text_subtitle">
+            Climate change and human activities are causing the health of oceans
+            to decline at an alarming rate.
+          </p>
+        </div>
+
+        <div data-aos="zoom-in-up" id="cards">
+          <div class="card">
+            <img src="./images/plasticdebris.jpg" alt="" />
+            <h4>Pollution</h4>
+            <p>
+              Today, plastic accounts for 85% of marine litter, putting all
+              marine life at serious risk.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./images/overfishing3.jpg" alt="" />
+            <h4>Overfishing</h4>
+            <p>
+              Intensive fishing is a major threat because it depletes resources
+              and destabilises ecosystems. However, this practice continues to
+              be heavily subsidised by governments.
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="./images/ecosystem.jpg" alt="" />
+            <h4>Ecosystem degradation</h4>
+            <p>
+              Each year, the oceans absorb 23% of human-caused carbon dioxide
+              (CO2) emissions and capture 90% of the excess heat created by
+              these emissions.
+            </p>
+          </div>
+        </div>
+
+        <footer>
+          <div class="socialmedia">
+            <a href="https://www.instagram.com/lean.eze_/" target="_blank"> <i class="fa-brands fa-instagram"></i></a>
+            <a href="https://github.com/zezek19" target="_blank"> <i class="fa-brands fa-github"></i></a>
+            <a href="https://twitter.com/zezek_32" target="_blank"> <i class="fa-brands fa-twitter"></i></a>
+          </div>
+
+
+
+          <div class="text_footer">
+            <p>
+              Designed and built with
+              <i class="fa-solid fa-heart"></i>
+              by
+              <a href="https://www.linkedin.com/in/leandro-ezequiel-felippe-mera/" target="_blank">Zezek</a>
+            </p>
+          </div>
+        </footer>
+      </section>
+    </main>
+
+    <!-- LINK AOS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      });
+    </script>
+  </body>
+</html>
