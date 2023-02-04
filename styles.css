@@ -37,6 +37,12 @@ body{
 header {
   height: 20vh;
 }
+
+.icon_menu{
+  display: none;
+}
+
+
 .navbar {
   height: 50px;
   display: flex;
@@ -85,7 +91,6 @@ ESTILO DE SUBRAYADO AL DAR HOVER
 h1 {
   padding-bottom: 90px;
   position: relative;
-  text-align: center;
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -166,10 +171,11 @@ h2 {
 }
 
 .text_information p {
-  margin-top: 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
 }
 
-img {
+.earth_image{
   padding-bottom: 60px;
   max-width: 480px;
 }
@@ -274,34 +280,9 @@ footer{
     font-size: 1.2rem;
 }
 .text_footer a{
-    height: 5px;
+
     color: #fff;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -320,4 +301,154 @@ body::-webkit-scrollbar-thumb {
 body::-webkit-scrollbar:hover {
     width: 12px;
 }
+
+
+
+
+
+
+/* MEDIA QUERIES */
+
+@media (min-width:320px) and (max-width:768px){
+
+
+
+  .navbar{
+    height: 50px;
+  }
+
+  .item_menu {
+    display: inline-flex;
+    padding:  0;
+  }
+
+  .item_menu a {
+    padding: 7px;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+  }
+  
+  
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+
+
+
+  /* MAIN SECTION*/
+  .text_subtitle_information{
+    padding: 45px 10px 0px 10px;
+  }
+
+
+  .information{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  h2{
+    width: 100%;
+  }
+
+  .text_information {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+
+  .earth{
+    display: flex;
+    justify-content: center;
+  }
+
+  .earth_image{
+    padding-top: 20px;
+    width:100%;
+  }
+
+
+
+  /* DANGER ZONE SECTION */
+  h3{
+    font-size: 2.5rem;
+    padding: 30px 0px 10px 0px;
+  }
+
+  .text_subtitle{
+    width: 90%;
+  }
+
+  #cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    margin: 40px 0px;
+    gap: 40px;
+  }
+
+  .card{
+    width: 18rem;
+  }
+
+  .card img{
+    padding-bottom: 25px;
+  }
+
+  .card h4 {
+    padding-bottom: 15px;
+  }
+
+
+  /* FOOTER SECTION */
+
+  footer{
+    margin: 0;
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .socialmedia{
+    padding: 0px;
+    margin-bottom: 0;
+}
+
+.socialmedia a{
+  font-size: 2rem;
+  padding: 0px 25px;
+}
+
+.text_footer{
+  margin: 15px 0px;
+  padding: 0px;
+  font-size: 1rem;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
